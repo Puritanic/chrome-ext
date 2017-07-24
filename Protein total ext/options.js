@@ -15,7 +15,7 @@
        });
 
        $('#reset').on('click', function () { 
-           chrome.storage.sync.set({'goal': 0}, function () { 
+           chrome.storage.sync.set({'total': 0}, function () { 
                var opt = {
                    type: "basic",
                    title: "Total reset!",
